@@ -12,7 +12,7 @@ function HomePage() {
         <h1>Doar store</h1>
         <h6>we provide the best <br /> experince for our customers </h6> 
       </div>
-      <img src={im} alt="" />
+      <img src={im} alt="" id="imj" />
     </div>
   );
 }

@@ -9,7 +9,7 @@ const Nav = () => {
   return (
     <>
       <nav>
-        <img src={im} width="180px"/>
+        <img src={im} width="180px"id="nav_img"/>
         <div>
         <Link to='/Main' className="custom-link">main </Link>
         <Link to='/ProductInfo' className="custom-link">ProductInfo</Link>

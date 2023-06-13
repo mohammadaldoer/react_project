@@ -15,7 +15,7 @@ code {
 }
 #search{
   margin: 30px;
-  margin-left: 600px;
+  margin-left: 35%;
 }
 .recipe_card__header{
   width: 22%;
@@ -60,7 +60,6 @@ margin: 4rem 2rem;
   width: 80%;
   height: 50%;
 }
-/* Majd */
 #root{
 background-color: rgb(245,245,245);
 }
@@ -101,3 +100,78 @@ padding: 1rem 2rem;
 #inner{
   padding: 40px;
 }
+
+
+
+h1 {
+  font-size: 36px;
+}
+
+h6 {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 850px) {
+  #nav_img{
+    width: 40%;
+  }
+  nav>.custom-link{
+    font-size: 13px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+
+  h6 {
+    font-size: 14px;
+  }
+  #imj{
+    width: 200px;
+    height: 300px;
+  }
+ .recipe_card__header>img{
+  width: 100px;
+  height: 100px;
+ }
+}
+@media screen and (max-width: 600px) {
+  #nav_img{
+    width: 30%;
+  }
+  nav>.custom-link{
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 12px;
+  }
+
+  #imj{
+    width: 200px;
+    height: 300px;
+  }
+  .recipe_card__header{
+    width: 60%;
+  }
+ .recipe_card__header>img{
+  width: 50px;
+  height: 50px;
+ }
+ #search{
+  margin: 30px;
+  margin-left: 15%;
+}
+#card_info>#inner>img{
+  width: 80%;
+  height: 45%;
+}
+#card_info{
+  width: 70%;
+}
+}
+
+
